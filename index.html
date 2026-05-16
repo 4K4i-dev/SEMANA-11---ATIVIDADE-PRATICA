@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mini Ecommerce - Home</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body class="bg-light m-0 p-0">
+    
+    <nav class="navbar navbar-expand-lg custom-navbar mb-4 shadow-sm">
+    <div class="container-fluid px-4">
+        <a class="navbar-brand tech-logo" href="index.html">⚡ TechStore</a>
+    </div>
+</nav>
+
+    <div class="container-fluid px-4">
+        
+        <section class="mb-5">
+            <h3 class="mb-3">Itens em Destaque</h3>
+            <div id="carouselExampleIndicators" class="carousel slide shadow-sm rounded overflow-hidden" data-bs-ride="carousel">
+                <div class="carousel-inner" id="carousel-destaques">
+                    </div>
+                <button class="carousel-control-prev bg-dark bg-opacity-25" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                </button>
+                <button class="carousel-control-next bg-dark bg-opacity-25" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                </button>
+            </div>
+        </section>
+
+        <section class="mb-5">
+            <h3 class="mb-3 border-bottom pb-2">Todos os Produtos</h3>
+            
+            <div id="product-list" class="d-flex flex-wrap gap-4 justify-content-start">
+                </div>
+        </section>
+
+        <footer class="mt-5 pt-4 pb-4 border-top">
+            <h4 class="mb-3">Informações do(a) Aluno(a)</h4>
+            <div class="row">
+                <div class="col-md-6 mb-3">
+                    <h5 class="fs-6 text-muted">Sobre o Projeto</h5>
+                    <p class="small text-muted">Este projeto apresenta renderização dinâmica de dados via JavaScript, criação de componentes reutilizáveis, roteamento via Query String e manipulação completa do DOM para a disciplina de Desenvolvimento Web.</p>
+                </div>
+                <div class="col-md-6">
+                    <h5 class="fs-6 text-muted">Autoria</h5>
+                    <ul class="list-unstyled small text-muted">
+                        <li><strong>Aluno:</strong> Andrew Kaique Ferreira de Paula</li>
+                        <li><strong>Matrícula:</strong> 927993</li>
+                        <li><strong>Curso:</strong> Sistemas de Informação</li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detalhes do Produto</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body class="bg-light p-0 p-md-4">
+
+    <div class="container bg-white shadow-sm rounded p-4" id="detalhes-container">
+        
+        <header class="d-flex justify-content-between align-items-center mb-4 border-bottom pb-3">
+            <h1 class="m-0 fs-3 text-primary">⚡ TechStore</h1>
+            <a href="index.html" class="btn btn-outline-secondary">← Voltar para Home</a>
+        </header>
+
+        <h2 class="mb-4" id="detalhe-nome">Carregando...</h2>
+
+        <section class="mb-5">
+            <h4 class="mb-3 text-secondary">Informações Gerais</h4>
+            <div class="row bg-light p-4 rounded border">
+                <div class="col-md-5 mb-3 mb-md-0 text-center bg-white rounded p-3 shadow-sm d-flex align-items-center justify-content-center">
+                    <img id="detalhe-imagem" src="" alt="Produto" class="img-fluid object-fit-contain" style="max-height: 300px;">
+                </div>
+                
+                <div class="col-md-7 d-flex flex-column justify-content-center">
+                    <ul class="list-group list-group-flush fs-5">
+                        <li class="list-group-item bg-transparent" id="info-preco"></li>
+                        <li class="list-group-item bg-transparent" id="info-categoria"></li>
+                        <li class="list-group-item bg-transparent" id="info-status"></li>
+                        <li class="list-group-item bg-transparent" id="info-descricao"></li>
+                        <li class="list-group-item bg-transparent" id="info-codigo"></li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section class="mb-4">
+            <h4 class="mb-3 text-secondary border-bottom pb-2">Avaliações de Clientes</h4>
+            
+            <div class="row" id="avaliacoes-container">
+                
+            </div>
+        </section>
+
+    </div>
+
+    <script src="assets/js/app.js"></script>
+</body>
+</html>
