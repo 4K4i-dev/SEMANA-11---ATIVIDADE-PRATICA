@@ -8,7 +8,7 @@ Projeto prático desenvolvido para a disciplina de **Desenvolvimento Web** na **
 * **Nome:** Andrew Kaique Ferreira de Paula
 * **Matrícula:** 927993
 * **Curso:** Sistemas de Informação
-* **Instituição:** PUC Minas (EAD / Unidade Coração Eucarístico)
+* **Instituição:** PUC Minas Barreiro
 
 ---
 
